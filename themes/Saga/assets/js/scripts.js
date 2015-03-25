@@ -21,6 +21,14 @@ $.getScript(siteurl+"/assets/js/helper/jquery.fitvids.js", function() {
     $("#main").fitVids();
 });
 
+/**********************
+ * HANDLE DATES  *
+ **********************/
+
+$.getScript(siteurl."/assets/js/helper/moment-with-locales.js", function() {
+    $('.header-content .timesince.date').html(moment($(this).data('datetime')).fromNow());
+});
+
 /***********
  * GALLERY *
  ***********/

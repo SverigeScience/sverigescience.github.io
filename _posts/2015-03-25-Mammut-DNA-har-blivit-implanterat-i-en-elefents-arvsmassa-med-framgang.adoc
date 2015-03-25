@@ -1,6 +1,6 @@
 # Mammut-DNA har blivit implanterat i en elefents arvsmassa med framgång
 
-:hp-image: mammooth-150425.jpg
+:hp-image: mammooth-150325.jpg
 :hp-tags: Djur och natur
 
 

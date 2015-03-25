@@ -1,6 +1,7 @@
 {{!< default}}
 {{#post ~}}
 <header id="header" class="animated fadeIn"{{#if image}} style="background-image: url({{image}})"{{/if}}>
+
     <div class="header-background">
     <section class="blog-content">
         <a id="site-url" class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
@@ -8,10 +9,15 @@
         {{> links}}
     </section>
     <section class="header-content">
+        <meta property="og:title" content="{{{title}}}">
+        <meta property="og:type" content="article">
+        <meta property="og:article:published_time" content="{{date format='DD MMMM YYYY'}}">
+        
+        <meta property="og:image" content="{{image}}">
         <h1 class="post-title animated fadeInUp">{{{title}}}</h1>
         <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="{{date format='X'}}" datetime="{{date format='YYYY-MM-DDTHH:mm'}}" title="{{date format='DD MMMM YYYY'}}">{{date format='X'}}</time></span>
             {{#if tags}}<span class="tags animated fadeInUp"><i class="fa fa-tags"></i> {{tags prefix="" separator=", "}}</span>{{/if}}
-            {{#author}}<span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="{{url}}">{{name}}</a></span>{{/author}}</span>
+            {{#author}}<span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="{{url}}">{{name}}</a><meta property="og:article:author" content="{{name}}"></span>{{/author}}</span>
     </section>
     </div>
 </header>

@@ -3,6 +3,8 @@
 :hp-image: mammooth-150325.jpg
 :hp-tags: Djur och natur
 
+image::mammooth-150325.jpg[Bild från Royal BC Museum]
+_Bild från Royal BC Museum_
 
 Forkare vid Harvard University har lyckats implantera en mammuts gentitiska kod i en elefant.
 
@@ -13,5 +15,3 @@ Det här är första gången som gener från en mammut varit vid liv på över 3
 George Church, genetikforskare vid Harvard University, använde en ny teknik som tillåter forskare att med hög precision redigera DNA och därmed ändra visa sektioner av elefantens DNA med hjälp av generna från mammuten.
 
 Mammutar är nära besläktade med den asiatiska elefanten (_Elephas maximus_), men dog ut vid den senaste istiden. De senast levande individerna dog ut på Wrangels Ö utanför Sibiriens norra kust för ca 3 300 år sedan. Det var dessa lik som gav forskare det DNA-underlag de behövde.
-
-_Bild från Royal BC Museum_

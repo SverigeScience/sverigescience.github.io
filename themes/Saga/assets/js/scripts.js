@@ -21,15 +21,6 @@ $.getScript(siteurl+"/assets/js/helper/jquery.fitvids.js", function() {
     $("#main").fitVids();
 });
 
-/**********************
- * HANDLE DATES  *
- **********************/
-
-$.getScript(siteurl+"/assets/js/helper/moment-with-locales.js", function() {
-    console.log(moment($(this).data('timesince')).fromNow());
-    $('.header-content .timesince.date').html(moment($(this).data('timesince')).fromNow());
-});
-
 /***********
  * GALLERY *
  ***********/
